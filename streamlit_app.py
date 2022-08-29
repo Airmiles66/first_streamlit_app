@@ -9,3 +9,5 @@ streamlit.text('\N{egg} Hard-Boiled Free-Range Egg')
 
 streamlit.text('\N{banana} \N{strawberry} Build your own Fruit Smoothie')
 
+import pandas
+
