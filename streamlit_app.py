@@ -31,7 +31,7 @@ def get_fruityvice_data(this_fruit_choice):
     return fruityvice_normalized
 
 # New Section to display Fruity Vice API respons
-streamlit.header("Fruityvice Fruit Advice!")
+streamlit.header("Fruityvice Fruit Advice1!")
 try:
   fruit_choice = streamlit.text_input('What fruit would you like information about?')
   if not fruit_choice:
@@ -63,7 +63,7 @@ my_data_rows = my_cur.fetchall()
 streamlit.header("The fruit load list contains:")
 streamlit.dataframe(my_data_rows)
 
-streamlit.header("Fruityvice Fruit Advice!")
+streamlit.header("Fruityvice Fruit Advice2!")
 fruit_choice = streamlit.text_input('What fruit would you like to add?','Kiwi')
 streamlit.write('Thanks for adding', fruit_choice)
 
